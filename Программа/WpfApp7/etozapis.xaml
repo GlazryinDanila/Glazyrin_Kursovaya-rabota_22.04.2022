@@ -1,0 +1,23 @@
+﻿<Window x:Class="WpfApp7.etozapis"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp7"
+        mc:Ignorable="d"
+        Title="etozapis" Height="352" Width="414">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="фон ноутбука2.jpg"/>
+        </Grid.Background>
+        <Label Content="Заполните анкеты покупателя,&#xD;&#xA; чтобы закончить покупку" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60" Width="406" FontFamily="Times New Roman" FontSize="18" Background="{x:Null}" Foreground="#FFB9FF00" Margin="0,15,0,0"/>
+        <TextBox HorizontalAlignment="Left" Height="35" Margin="10,75,0,0" TextWrapping="Wrap" Text="фамилия" VerticalAlignment="Top" Width="140" FontFamily="Times New Roman" FontSize="16" Foreground="#FFC5FF00" Background="{x:Null}"/>
+        <TextBox HorizontalAlignment="Left" Height="35" Margin="10,130,0,0" TextWrapping="Wrap" Text="имя" VerticalAlignment="Top" Width="140" TextChanged="TextBox_TextChanged" FontFamily="Times New Roman" FontSize="16" Foreground="#FFC5FF00" Background="{x:Null}"/>
+        <TextBox HorizontalAlignment="Left" Height="35" Margin="10,185,0,0" TextWrapping="Wrap" Text="отчество" VerticalAlignment="Top" Width="140" FontFamily="Times New Roman" FontSize="16" Foreground="#FFC5FF00" Background="{x:Null}"/>
+        <Button Content="Записаться " HorizontalAlignment="Left" Margin="10,240,0,0" VerticalAlignment="Top" Width="390" Height="35" Click="Button_Click" FontFamily="Times New Roman" FontSize="16" Foreground="#FFC5FF00" Background="{x:Null}"/>
+        <TextBox HorizontalAlignment="Left" Height="35" Margin="230,75,0,0" TextWrapping="Wrap" Text="Дата рождения" VerticalAlignment="Top" Width="140" FontFamily="Times New Roman" FontSize="16" Foreground="#FFC5FF00" Background="{x:Null}"/>
+        <TextBox HorizontalAlignment="Left" Height="35" Margin="230,130,0,0" TextWrapping="Wrap" Text="Дата бронирование" VerticalAlignment="Top" Width="140" TextChanged="TextBox_TextChanged" FontFamily="Times New Roman" FontSize="16" Foreground="#FFC5FF00" Background="{x:Null}"/>
+        <Button Content="выход" HorizontalAlignment="Left" Margin="230,185,0,0" VerticalAlignment="Top" Width="140" Height="35" FontFamily="Times New Roman" FontSize="16" Foreground="#FFC5FF00" Background="{x:Null}" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>

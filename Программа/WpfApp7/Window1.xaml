@@ -1,0 +1,66 @@
+﻿<Window x:Class="WpfApp7.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp7"
+        mc:Ignorable="d"
+        Title="Window1" Height="487" Width="664">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/ы1ы1.jpg"/>
+        </Grid.Background>
+        <Label Content="Пожалуйста выберите направление услуги&#xD;&#xA;" HorizontalAlignment="Left" Margin="80,55,0,0" VerticalAlignment="Top" Height="60" Width="505" Background="{x:Null}" FontFamily="Times New Roman" FontSize="24" Foreground="#FFA2FF00"/>
+        <Button Content="Сборка/модернизация компьютера" HorizontalAlignment="Left" Margin="35,120,0,0" VerticalAlignment="Top" Width="290" Height="50" Background="{x:Null}" Foreground="#FFD1FF00" FontFamily="Times New Roman" FontSize="18" Click="Button_Click">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Модернизация ноутбука" HorizontalAlignment="Left" Margin="35,185,0,0" VerticalAlignment="Top" Width="290" Height="50" Background="{x:Null}" Foreground="#FFD1FF00" FontFamily="Times New Roman" FontSize="18" Click="Button_Click_1">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Ремонт компьютера" HorizontalAlignment="Left" Margin="35,250,0,0" VerticalAlignment="Top" Width="290" Height="50" Background="{x:Null}" Foreground="#FFD1FF00" FontFamily="Times New Roman" FontSize="18" Click="Button_Click_4">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Ремонт ноутбука" HorizontalAlignment="Left" Margin="35,315,0,0" VerticalAlignment="Top" Width="290" Height="50" Background="{x:Null}" Foreground="#FFD1FF00" FontFamily="Times New Roman" FontSize="18" Click="Button_Click_2">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Установка/настройка ПО компьютера" HorizontalAlignment="Left" Margin="35,380,0,0" VerticalAlignment="Top" Width="290" Height="50" Background="{x:Null}" Foreground="#FFD1FF00" FontFamily="Times New Roman" FontSize="18" Click="Button_Click_3">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Установка/настройка ПО ноутбука" HorizontalAlignment="Left" Margin="350,120,0,0" VerticalAlignment="Top" Width="280" Height="50" Background="{x:Null}" Foreground="#FFD1FF00" FontFamily="Times New Roman" FontSize="18">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Обслуживание ИБП" HorizontalAlignment="Left" Margin="350,185,0,0" VerticalAlignment="Top" Width="280" Height="50" Background="{x:Null}" Foreground="#FFD1FF00" FontFamily="Times New Roman" FontSize="18">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Прочее" HorizontalAlignment="Left" Margin="350,250,0,0" VerticalAlignment="Top" Width="280" Height="50" Background="{x:Null}" Foreground="#FFD1FF00" FontFamily="Times New Roman" FontSize="18">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Интернет" HorizontalAlignment="Left" Margin="350,315,0,0" VerticalAlignment="Top" Width="280" Height="50" Background="{x:Null}" Foreground="#FFD1FF00" FontFamily="Times New Roman" FontSize="18">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Выход" HorizontalAlignment="Left" Margin="350,380,0,0" VerticalAlignment="Top" Width="280" Height="50" Background="{x:Null}" Foreground="#FFD1FF00" FontFamily="Times New Roman" FontSize="18" Click="Button_Click_5">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+
+    </Grid>
+</Window>

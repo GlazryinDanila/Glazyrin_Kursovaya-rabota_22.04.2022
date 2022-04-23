@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp7.kod"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp7"
+        mc:Ignorable="d"
+        Title="kod" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="zxcursed.gif"/>
+        </Grid.Background>
+        <Label Content="у вас нет прав для этих действий " HorizontalAlignment="Left" Margin="80,20,0,0" VerticalAlignment="Top" RenderTransformOrigin="-4.868,-2.308" Height="135" Width="630" Foreground="Black" FontFamily="Times New Roman" FontSize="36"/>
+        <Button Content="выйти" HorizontalAlignment="Left" Margin="690,389,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+
+    </Grid>
+</Window>

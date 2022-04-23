@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfApp7.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp7"
+        mc:Ignorable="d"
+        Title="Window3" Height="395" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush>
+                <ImageBrush.ImageSource>
+                    <ImageSource>/ы1ы1.jpg</ImageSource>
+                </ImageBrush.ImageSource>
+            </ImageBrush>
+        </Grid.Background>
+        <Label Content="Вопрос ответ " HorizontalAlignment="Left" Margin="164,17,0,0" VerticalAlignment="Top" Width="428" Height="65" FontFamily="Times New Roman" FontSize="36" Foreground="#FFAEFF00"/>
+        <Label Content="1.Увеличивается ли стоимость услуг за вызов на дом?&#xD;&#xA;-Цены на работу едины и соответствуют прайс-листу" HorizontalAlignment="Left" Margin="10,82,0,0" VerticalAlignment="Top" Height="59" Width="438" Foreground="Yellow" FontFamily="Times New Roman" FontSize="18"/>
+        <Label Content="3. Через сколько после вызова Вы приступите к оказанию услуг?&#xD;&#xA;Как правило, у меня все заказы срочные, т.е. приступаю к выполнению сразу, при поступлении без увеличения стоимости.&#xD;&#xA; При поступлении нескольких заказов одновременно, выполняются в порядке общей очереди." HorizontalAlignment="Left" Margin="10,217,0,0" VerticalAlignment="Top" Height="90" Width="735" Foreground="#FF00FFB9" FontFamily="Times New Roman" FontSize="18"/>
+        <Label Content="4.Почему у Вас цены дешевле/дороже других?&#xA;Я стараюсь, чтобы цены устраивали и меня и Вас!" HorizontalAlignment="Left" Margin="10,151,0,0" VerticalAlignment="Top" Height="55" Width="813" Foreground="#FF00FF80" FontFamily="Times New Roman" FontSize="18"/>
+        <Button Content="Понятно!" HorizontalAlignment="Left" Margin="268,307,0,0" VerticalAlignment="Top" Width="220" Height="50" Background="{x:Null}" Foreground="#FFDCFF00" FontFamily="Times New Roman" FontSize="24" Click="Button_Click"/>
+        <Button Content="выйти" HorizontalAlignment="Left" Margin="700,332,0,0" VerticalAlignment="Top" Width="90" Height="25" Background="{x:Null}" Foreground="#FFDCFF00" FontFamily="Times New Roman" FontSize="18" Click="Button_Click_1"/>
+        <Border BorderBrush="#FF94FF00" BorderThickness="1" Margin="10,82,355,210"/>
+        <Border BorderBrush="#FF5AFF00" BorderThickness="1" Margin="10,151,355,145"/>
+
+    </Grid>
+</Window>
